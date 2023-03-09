@@ -102,7 +102,9 @@ app_license = "MIT"
 #		"on_trash": "method"
 #	}
 # }
-
+doc_events = {
+"Material Request":{"on_submit" : "erpnext_gsg.erpnext_gsg.doc_event.material_request_event.creat_stock_entry"}
+}
 # Scheduled Tasks
 # ---------------
 
@@ -188,3 +190,4 @@ user_data_fields = [
 #	"erpnext_gsg.auth.validate"
 # ]
 
+fixtures = ["Salary Component"]

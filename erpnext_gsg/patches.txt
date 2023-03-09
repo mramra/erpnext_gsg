@@ -1,0 +1,4 @@
+erpnext_gsg.patches.journal_entry_field_remove
+erpnext_gsg.patches.payment_entry_make_series
+erpnext_gsg.patches.add_purchase_taxes_16%
+erpnext_gsg.patches.add_sales_taxes_16%
