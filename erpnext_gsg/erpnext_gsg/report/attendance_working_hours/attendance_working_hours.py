@@ -38,7 +38,10 @@ def get_data(conditions,filters):
 	else:
 		working_hours=0
 	data[0]["working_hours"]=working_hours
-	
+	#http://185.177.57.155:8000/app/attendance/HR-ATT-2023-00001
+	#http://185.177.57.155:8000/app/query-report/HR-ATT-2023-00001
+	#data[0]["link"]="<a href='/app/attendance/"+data[0]['name']+"'target='_blank' rel='noopener noreferrer'>"+data[0]['name']+"</a>"
+	#data[0]["link"]='<a href="http://185.177.57.155:8000/app/attendance/HR-ATT-2023-00001" target="_blank">lll</a>'
 	return data
 
 
@@ -50,7 +53,8 @@ def get_columns(filters):
 		{"label": _("Check in"),"fieldname": "check_in","fieldtype": "Data"},
 		{"label": _("Check Out"),"fieldname": "check_out","fieldtype": "Data"},
 		{"label": _("Working Hours"),"fieldname": "working_hours","fieldtype": "Data"},
-		{"label": _("View Attendance"),"fieldname": "name","fieldtype": "Link","options": "Attendance",},
+		#{"label": _("View Attendance"),"fieldname": "link","fieldtype": "Data"}
+		{"label": _("View Attendance"),"fieldname": "name","fieldtype":"Link","options":"Attendance"}
 		
 	]
 	return columns
