@@ -7,7 +7,7 @@ erpnext_gsg
 MIT
 
 ### Edit In Erpnext
-1- In Journal Entry in field Entry Type Hide or Remove Options “Inter Company Journal Entry” and “Deferred Expense” .\n
+1- In Journal Entry in field Entry Type Hide or Remove Options “Inter Company Journal Entry” and “Deferred Expense” ./n
 2- In Payment Entry make Series = ‘GSG-JV-.YYYY.-’ for every New Payment Entry Created .
 3- Add Purchase Taxes and Charges Template 16 % On Net Total and included in Basic Rate and make it default . 
 add Sales Taxes and Charges Template 16 % On Net Total and included in Basic Rate and make it default . 
