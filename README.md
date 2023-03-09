@@ -49,4 +49,5 @@ add Sales Taxes and Charges Template 16 % On Net Total and included in Basic Rat
 
 ### Install App erpnext_gsg
 1- bench get-app https://github.com/mramra/erpnext_gsg
+
 2- bench --site {site} install-app erpnext_gsg
