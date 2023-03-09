@@ -7,10 +7,14 @@ erpnext_gsg
 MIT
 
 ### Edit In Erpnext
-1- In Journal Entry in field Entry Type Hide or Remove Options “Inter Company Journal Entry” and “Deferred Expense” ./n
+1- In Journal Entry in field Entry Type Hide or Remove Options “Inter Company Journal Entry” and “Deferred Expense” .
+
 2- In Payment Entry make Series = ‘GSG-JV-.YYYY.-’ for every New Payment Entry Created .
+
 3- Add Purchase Taxes and Charges Template 16 % On Net Total and included in Basic Rate and make it default . 
+
 add Sales Taxes and Charges Template 16 % On Net Total and included in Basic Rate and make it default . 
+
 4- when submitting Material Request  with values Purpose “Material Issue” , Target Warehouse and Items   Create new Stock Entry with Stock Entry Type “Material Issue”,  Target Warehouse and Items , also add value name material request to field material_request in Items .
 5-  Add field “Sales order time” to Sales order and make it Mandatory .
 6- add filter “From Time”  and “To Time” and make it Mandatory to report Sales Order Analysis and use field “Sales order time” in Sales order to filter result  .
