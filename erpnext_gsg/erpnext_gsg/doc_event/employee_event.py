@@ -7,6 +7,6 @@ def hours(from_time,to_time):
     return time_diff_in_hours(to_time,from_time)
 
 @frappe.whitelist()
-def salary(name):
-    return 10
+def get_salary(name):
+     return 10
 
