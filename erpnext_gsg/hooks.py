@@ -193,4 +193,4 @@ user_data_fields = [
 #	"erpnext_gsg.auth.validate"
 # ]
 
-fixtures = ["Salary Component"]
+fixtures = ["Salary Component","Workspace Shortcut"]
