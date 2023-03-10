@@ -106,7 +106,8 @@ doctype_js = {"Employee Excuse Application" : "public/js/employee_excuse_hours.j
 			  "To Whom It Concerns":"public/js/salary.js"}
 
 doc_events = {
-"Material Request":{"on_submit" : "erpnext_gsg.erpnext_gsg.doc_event.material_request_event.creat_stock_entry"}
+"Material Request":{"on_submit" : "erpnext_gsg.erpnext_gsg.doc_event.material_request_event.creat_stock_entry"},
+"Employee Excuse Application":{"on_submit" : "erpnext_gsg.erpnext_gsg.doc_event.hours_aLowed.validate"}
 }
 # Scheduled Tasks
 # ---------------

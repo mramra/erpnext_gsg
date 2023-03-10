@@ -60,7 +60,7 @@
    "fieldname": "hours",
    "fieldtype": "Float",
    "label": "Hours",
-   "reqd": 1
+   "read_only": 1
   },
   {
    "fieldname": "reason",
@@ -70,7 +70,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-09 20:59:09.419276",
+ "modified": "2023-03-10 15:52:57.062702",
  "modified_by": "Administrator",
  "module": "erpnext_gsg",
  "name": "Employee Excuse Application",
