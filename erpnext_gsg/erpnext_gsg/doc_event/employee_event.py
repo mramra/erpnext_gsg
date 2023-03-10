@@ -1,6 +1,6 @@
 import frappe
 from frappe.utils import time_diff_in_hours
-
+from frappe.utils import today
 
 @frappe.whitelist()
 def hour(from_time,to_time):
@@ -13,4 +13,3 @@ def get_salary(name):
         return salery[0].rounded_total
     else:
         return 0
-
