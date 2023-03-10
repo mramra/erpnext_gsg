@@ -37,7 +37,8 @@
   {
    "fieldname": "salary",
    "fieldtype": "Data",
-   "label": "Salary "
+   "label": "Salary ",
+   "read_only": 1
   },
   {
    "fieldname": "employee",
@@ -48,7 +49,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-09 21:06:51.294226",
+ "modified": "2023-03-10 07:57:12.866190",
  "modified_by": "Administrator",
  "module": "erpnext_gsg",
  "name": "To Whom It Concerns",
